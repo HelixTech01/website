@@ -1,0 +1,46 @@
+.navbar-collapse {
+    padding: 5px 15px;
+}
+
+.navbar-collapse a {
+    color: #000000;
+}
+
+
+/* desktop Header */
+
+.desktopHeader {}
+
+
+/* mobile Header */
+
+.mobileHeader .navbar {
+    padding: 5px 10px;
+}
+
+.cr-btn {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 110px;
+}
+
+.mobileHeader .cr-btn.cr-btn-round {
+    border-radius: 100px;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+/*Tablet 992 - 1024  */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .mobileHeader{
+        display: none;
+    }
+}
